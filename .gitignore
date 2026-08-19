@@ -427,3 +427,9 @@ FodyWeavers.xsd
 *.msix
 *.msm
 *.msp
+
+# Local-only working area (drafts, private data, scratch work)
+private/
+
+# Downloaded datasets — reproducible via notebooks/01-data-download
+data/raw/

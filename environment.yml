@@ -1,0 +1,30 @@
+name: notes-on-ds
+
+channels:
+  - conda-forge
+
+dependencies:
+  - python=3.12
+
+  - numpy
+  - pandas
+  - scipy
+  - pyarrow
+
+  - matplotlib
+  - seaborn
+
+  - scikit-learn
+  - statsmodels
+  - arch-py
+  - pingouin
+  - dcor
+
+  - requests
+
+  - jupyterlab
+  - ipykernel
+
+  - pip
+  - pip:
+      - semopy
